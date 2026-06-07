@@ -35,15 +35,19 @@ Perangkat ini dilengkapi dengan tombol mekanis yang dapat diprogram (*fully prog
 
 ## 📐 Desain Perangkat Keras (Hardware)
 
-Proses perancangan PCB dilakukan sepenuhnya menggunakan **KiCad**. Desain berfokus pada efisiensi jalur (*routing*), minimalisasi *noise*, dan kemudahan saat proses perakitan (*soldering*).
+Proses perancangan PCB dilakukan sepenuhnya menggunakan **KiCad**. Desain berfokus pada efisiensi jalur (*routing*), penempatan komponen yang ergonomis, serta kemudahan saat proses perakitan (*soldering*).
+
+### Fitur Hardware:
+* **Microcontroller:** Menggunakan ESP32 / Arduino (Pro Micro) sebagai otak utama dengan komunikasi USB HID.
+* **Key Matrix:** Menggunakan konfigurasi matriks dioda untuk menghemat pin I/O (atau direct pin jika menggunakan mikrokontroler dengan banyak pin).
+* **Hot-swappable:** Jalur dirancang menggunakan socket khusus agar switch bisa diganti tanpa solder ulang.
 
 ### Skematik & Layout PCB
-
 | 3D Render PCB | Top Layer Layout |
 | --- | --- |
-| ![3D Render](path/to/your/3d-render.png) | ![Top Layer](path/to/your/pcb-layout.png) |
+| ![3D Render](assets/render3d.png) | ![Top Layer](assets/layout.png) |
 
-*File gerber, skematik, dan BOM (Bill of Materials) tersedia lengkap di folder `/hardware`.*
+*Catatan: File gerber siap cetak dan daftar komponen lengkap tersedia di folder `/hardware`.*
 
 ---
 
