@@ -47,7 +47,7 @@ Proses perancangan PCB dilakukan sepenuhnya menggunakan **KiCad**. Desain berfok
 | --- | --- |
 | ![3D Render](assets/render3d.png) | ![Top Layer](assets/layout.png) |
 
-*Catatan: File gerber siap cetak dan daftar komponen lengkap tersedia di folder `/hardware`.*
+*Catatan: File gerber siap cetak dan daftar komponen lengkap tersedia di folder `/Hardware`.*
 
 ---
 
